@@ -1,3 +1,3 @@
 #!/bin/bash
 
-gnome-terminal -x ./hangMan
+gnome-terminal -e ./hangMan

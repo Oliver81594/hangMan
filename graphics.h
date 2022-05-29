@@ -76,7 +76,8 @@ void new_frame(){
     extern int lives;
     extern char wrong[50];
     system("clear");
+    printf("Word: %s \n", word);
     draw(lives);
-    printf("%s \n", word);
     printf("Wrong guesses: %s \n", wrong);
+    printf("Guess letter: ");
 }
